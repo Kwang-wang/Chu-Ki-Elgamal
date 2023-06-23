@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+$mainfont : 'Quicksand', sans-serif;
+
+body{
+    font-family: $mainfont;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: $mainfont;
+    
+}
+.key_create_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .public{
+        border-right: 2px solid black;
+    }
+    .key{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 120px;
+        margin-top: 20px;
+        align-items: center;
+        .random_key_create{
+            display: flex;
+            flex-direction: row;
+            height: 30px;
+            width: 300px;
+            margin-bottom: 10px;
+            label{
+                font-weight: 600;
+                margin-left: 20px;
+                width: 130px;
+            }
+            .random_key{
+                display: flex;
+                height: 30px;
+                width: 100px;
+                background-color: white;
+                border-radius: 10px;
+                margin-left: 15px;
+                border: 0.5px solid black;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+                position: relative;
+                bottom: 2px;
+            }
+        }
+    }
+}
+.container{
+    font-family: $mainfont;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 620px;
+    background-color: rgb(187, 187, 151);
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    .function{
+        width: 70%;
+        height: 97%;
+        background-color: rgba(173, 154, 154, 0.637);
+        border-radius: 20px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        button{
+            width: 80px;
+            font-weight: 600;
+            border: 2px solid rgb(255, 255, 255);
+        }
+        .function_title{
+            background-color: rgb(119, 111, 111);
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            color: white;
+            justify-content: center;
+            font-weight: 600;
+        }
+    }
+    .encrypt{
+        margin-right: 10px;
+    }
+    .textInBlock{
+        font-weight:900;
+        font-size: 22px;
+        display: flex;
+        margin-top: 10px;
+        position: relative;
+        right: 135px;
+        color: rgb(0, 0, 0);
+    }
+    .crypto{
+        width: 389px;
+        height: 80px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        border: 2px solid rgb(0, 0, 0);
+        padding: 8px;
+        font-weight:600;
+        overflow-wrap: break-word;
+    }
+    .console{
+        width: 70%;
+        height: 80px;
+        background: rgb(138, 126, 126);
+        border-radius: 10px;
+        border: 1.5px solid black;
+        display: flex;
+        font-weight:600;
+        justify-content:center;
+        align-items: center;
+        font-size: 17px;
+        color: white;
+        .console_textbox{
+            width: 358px;
+            height: 60px;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+        }
+
+    }
+    .rechoseAndSave{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        button{
+            margin: 0px 30px 0px 30px;
+        }
+    }
+    
+
+}

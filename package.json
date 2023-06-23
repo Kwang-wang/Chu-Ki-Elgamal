@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "docxtemplater": "^3.37.11",
+    "mammoth": "^1.6.0"
+  }
+}
